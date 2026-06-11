@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-src=https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.64.tar.xz
+src=https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.12.tar.xz
 pkg=$(basename "$src" .tar.xz)
 
 build=$(mktemp -d); trap 'rm -rf "$build"' EXIT

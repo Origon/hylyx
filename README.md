@@ -137,7 +137,7 @@ cd linux
 make linux
 
 # Build VM images
-make ubuntu    # Ubuntu 24.04
+make ubuntu    # Ubuntu 26.04
 make alpine    # Alpine 3.23
 make fedora    # Fedora 43
 ```

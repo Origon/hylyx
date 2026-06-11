@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-src="https://cloud-images.ubuntu.com/minimal/releases/noble/release/ubuntu-24.04-minimal-cloudimg-arm64-root.tar.xz"
-pkg="ubuntu-24.04-arm64"
+src="https://cloud-images.ubuntu.com/minimal/releases/resolute/release/ubuntu-26.04-minimal-cloudimg-arm64-root.tar.xz"
+pkg="ubuntu-26.04-arm64"
 
 build=$(mktemp -d)
 trap 'rm -rf "$build"' EXIT
